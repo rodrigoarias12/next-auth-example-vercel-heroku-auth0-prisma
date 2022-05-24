@@ -7,29 +7,24 @@
    <p align="center">
    Open Source. Full Stack. Own Your Data.
    </p>
-   <p align="center" style="align: center;">
-      <a href="https://npm.im/next-auth">
-        <img alt="npm" src="https://img.shields.io/npm/v/next-auth?color=green&label=next-auth">
-      </a>
-      <a href="https://bundlephobia.com/result?p=next-auth-example">
-        <img src="https://img.shields.io/bundlephobia/minzip/next-auth?label=next-auth" alt="Bundle Size"/>
-      </a>
-      <a href="https://www.npmtrends.com/next-auth">
-        <img src="https://img.shields.io/npm/dm/next-auth?label=next-auth%20downloads" alt="Downloads" />
-      </a>
-      <a href="https://npm.im/next-auth">
-        <img src="https://img.shields.io/badge/npm-TypeScript-blue" alt="TypeScript" />
-      </a>
-   </p>
 </p>
 
 ## Overview
 
-NextAuth.js is a complete open source authentication solution.
+This fork to NextAuth.js is a complete open source authentication solution. This example uses the Auth0 provider , Heroku / Postgresql and sets roles in the prisma schema. 
 
-This is an example application that shows how `next-auth` is applied to a basic Next.js app.
+This is an example application that shows how `next-auth` is applied to use these roles for authorization using jwt and session on the basic Next.js app.
 
-The deployed version can be found at [`next-auth-example.vercel.app`](https://next-auth-example.vercel.app)
+The deployed version can be found at [`https://next-auth-example-vercel-heroku-auth0-prisma.vercel.app/`](https://next-auth-example-vercel-heroku-auth0-prisma.vercel.app/)
+## Technologies
+
+- Next.js(React)
+- TypeScript
+- Prisma
+- NextAuth
+- Auth0
+- Postgresql 
+- Tailwind
 
 ### About NextAuth.js
 
@@ -44,14 +39,14 @@ Go to [next-auth.js.org](https://next-auth.js.org) for more information and docu
 ### 1. Clone the repository and install dependencies
 
 ```
-git clone https://github.com/nextauthjs/next-auth-example.git
+git clone https://github.com/rodrigoarias12/next-auth-example-vercel-heroku-auth0-prisma.git
 cd next-auth-example
 npm install
 ```
 
 ### 2. Configure your local environment
 
-Copy the .env.local.example file in this directory to .env.local (which will be ignored by Git):
+Copy the .env.local.example file in this directory to .env (which will be ignored by Git):
 
 ```
 cp .env.local.example .env
