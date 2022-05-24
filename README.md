@@ -39,7 +39,7 @@ Go to [next-auth.js.org](https://next-auth.js.org) for more information and docu
 
 ```
 git clone https://github.com/rodrigoarias12/next-auth-example-vercel-heroku-auth0-prisma.git
-cd next-auth-example
+cd next-auth-example-vercel-heroku-auth0-prisma
 npm install
 ```
 
