@@ -72,7 +72,7 @@ npx prisma generate
 
 ### 3. Configure Authentication Providers
 
-1-Create account in Auth0 in environment
+1-Create account in Auth0
 
 2-Add details for Auth0 from auth0 manager and complete the .env file
 
