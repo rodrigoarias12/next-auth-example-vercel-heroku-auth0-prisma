@@ -61,11 +61,11 @@ The next steps configure environment .env file
 
 #### Database
 
-A database is needed to persist user accounts and set role for autorization users.
+A database is needed to persist user accounts and set roles for authorization users.
 
 1-Create Account in Heroku and copy DATABASE_URL
 
-2-Add details for Data Base in .env file
+2-Add details for Database in .env file
 ```
 #DATABASE HEROKU
 DATABASE_URL=
@@ -104,7 +104,11 @@ npm run build
 npm run start
 ```
 
-### 5. Preparing for Production
+### 5. Preparing for Production with vercel
+Deploying NextAuth.js only requires a few steps. First create an account in vercel and integrate with github. 
+Then configure environment variables in the vercel dashboard.
+Remember to configure your Auth0 config for callbacks. 
+
 
 Follow the [Deployment documentation](https://next-auth.js.org/deployment)
 
