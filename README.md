@@ -24,7 +24,6 @@ The deployed version can be found at [`https://next-auth-example-vercel-heroku-a
 - NextAuth
 - Auth0
 - Postgresql 
-- Tailwind
 
 ### About NextAuth.js
 
